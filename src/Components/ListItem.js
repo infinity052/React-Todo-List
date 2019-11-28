@@ -9,7 +9,7 @@ const ListItem = function(props){
         <>
         <td>
        
-            <input type="checkbox" onChange={props.checkbox} id={props.index}/></td>
+            <input type="checkbox" checked={props.checked} onChange={props.checkbox} id={props.index}/></td>
 
 <td>{jsx}</td>
        <td align="end"> <Button onClick={props.delete} id={props.index} value={<img id={props.index} className="trashicon" src="https://icon-library.net/images/waste-basket-icon/waste-basket-icon-1.jpg" alt="Delete"/>}/></td>
