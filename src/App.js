@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import List from './Containers/List';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+
 export default class App extends Component{
     constructor(props){
         super(props);

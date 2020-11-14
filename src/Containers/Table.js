@@ -3,7 +3,7 @@ import ListItem from '../Components/ListItem';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const printItems= function(array,del,chk){
     let counter=0;
-    return array.map(element=><tr><ListItem  item={element.task} done={element.done} index={counter++} checked={element.done} delete={del} checkbox={chk}/></tr>);
+    return array.map(element=><tr><ListItem id = {element.id} key = {element.id} item={element.task} done={element.done} index={counter++} checked={element.done} delete={del} checkbox={chk}/></tr>);
 }
 const Table = function(props){
     return(
